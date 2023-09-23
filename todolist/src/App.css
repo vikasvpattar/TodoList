@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  margin: 20px 10px;
+}
+.create_form button {
+  padding: 10px;
+  background-color: blue;
+  color: wheat;
+  cursor: pointer;
+}
+.todo {
+  width: 300px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  margin-right: 5px;
+}
+.checkbox {
+  display: flex;
+}
+.line_through {
+  text-decoration: line-through;
+}
